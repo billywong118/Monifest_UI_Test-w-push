@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.example" version="1.0.0" versionCode="1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Monifest</name>
+    <description>
+	Monifest app prototype!
+	</description>
+    <author email="" href="">
+        author name
+    </author>
+    <preference name="permissions" value="none" />
+    <gap:plugin name="com.phonegap.plugins.pushplugin" version="2.4.0" />
+    <access origin="*" />
+    <icon src="www/logo.png" />
+    <feature name="http://api.phonegap.com/1.0/battery" />
+    <feature name="http://api.phonegap.com/1.0/camera" />
+    <feature name="http://api.phonegap.com/1.0/contacts" />
+    <feature name="http://api.phonegap.com/1.0/file" />
+    <feature name="http://api.phonegap.com/1.0/geolocation" />
+    <feature name="http://api.phonegap.com/1.0/media" />
+    <feature name="http://api.phonegap.com/1.0/network" />
+    <feature name="http://api.phonegap.com/1.0/notification" />
+    <feature name="Calendar">
+        <param name="android-package" value="nl.xservices.plugins.Calendar" />
+    </feature>
+    <feature name="Geolocation">
+        <param name="android-package" value="org.apache.cordova.geolocation.GeoBroker" />
+    </feature>
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
+    </feature>
+    <feature name="Vibration">
+        <param name="android-package" value="org.apache.cordova.vibration.Vibration" />
+    </feature>
+    <plugin name="cordova-plugin-whitelist" spec="^1.0.0" />
+</widget>
